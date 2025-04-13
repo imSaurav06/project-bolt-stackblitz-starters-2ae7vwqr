@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="nav">
+      <button class="z">Reset</button>
+    </nav>
+
+    <div class="canvas">
+      <form>
+        <label for="height">Height in Cm :</label>
+        <input type="number" id="height" required placeholder="......" />
+
+        <br /><br />
+
+        <label for="weight"> Weight in Kg :</label>
+        <input type="number" id="weight" required placeholder="...." />
+        <br /><br />
+        <button>IBM Weight Guide Calculate</button>
+
+    
+        <br/><br />
+
+        <ul>
+          <ol>
+            <li>Under Weight : Less thsn 18.06</li>
+            <li>Normal Range : 18.06 to 24.09</li>
+            <li>OverWeight: Greater than 24.09</li>
+          </ol>
+        </ul>
+ 
+
+        <br /><br />
+        <span class="textResult"></span>
+        <br />
+        <div style="color: crimson;" class="result">.</div>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

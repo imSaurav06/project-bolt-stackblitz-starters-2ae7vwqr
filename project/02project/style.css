@@ -1,0 +1,60 @@
+
+*{
+    background-color: rgb(243, 205, 255);
+}
+
+.canvas {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+  }
+
+  .z{
+    background-color: black;
+    height: 50px;
+    width: 70px;
+    color: rgb(245, 243, 243);
+    
+    
+  }
+  
+  .z{
+    padding: 10px 20px;
+    border: none;
+    margin: 5px;
+    background-color: rgb(27, 24, 24);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+  }
+  
+  .z:active{
+    transform: scale(0.95);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) inset;
+  }
+ 
+
+  .result{
+    height: 55px;
+    width: 130px;
+     border: solid;
+    justify-self: center;
+      font-weight: bold;
+      justify-content: center;
+      align-content: center;
+  }
+  .textResult{
+    margin-left: 7.5cm;
+  }
+
+
+
+
+
+
+  /*   /* align-self: center;
+    /* align-items: center; */
+    /* align-content: center; */
+    /* justify-content: center; */
+    /* justify-items: center; */
+    /* justify-self: center;  */ 
